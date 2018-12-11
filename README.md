@@ -1,2 +1,3 @@
 # FordLandingPage
-A stylish Ford Landing page that I created for the front end. using HTML and CSS.
+
+A side project for a stylish Ford Landing page that I created that is all front end. used HTML and CSS. Made the landing page mobile friendly and responsive. 
