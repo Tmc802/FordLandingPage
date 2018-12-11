@@ -1,0 +1,114 @@
+body { 
+  background: url("https://images.pexels.com/photos/173286/pexels-photo-173286.jpeg?cs=srgb&dl=asphalt-auto-automobile-173286.jpg&fm=jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  font-family: 'Raleway', sans-serif;
+}
+
+.Ford {
+  display: inline-block;
+  text-shadow: 1px 1px black;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: monostrat;
+  color: antiquewhite;
+  margin: 0px 0px 0px 110px;
+  border-bottom: 1px solid rgba(217, 30, 24, 1);
+  width: 170px;
+}
+
+.tagLine { 
+  text-shadow: 1px 1px black;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: monostrat;
+  color: antiquewhite;
+  margin: 0px 0px 0px 150px;
+  padding-top:5px;
+}
+
+.estTagLine { 
+  display: inline-block;
+  text-shadow: 1px 1px black;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: monostrat;
+  color: antiquewhite;
+  margin: 0px 0px 0px -110px;
+  padding-top:5px;
+}
+
+.groupedTagLines { 
+  padding-top:20px;
+  margin-left: 20px;
+}
+
+.enterBtn {
+  text-shadow: 1px 1px black;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: monostrat;
+  color: antiquewhite;
+  margin: 0px 0px 0px 0px;
+  padding-top:10px;
+  cursor: pointer;
+}
+
+
+.menu ul {
+  display: inline-block;
+  width: 100%;
+  text-shadow: 1px 1px black;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top:  px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-items{
+  display: inline-block;
+  margin: 0px 65px 0px;
+  border-radius: 5px;
+  color: antiquewhite;
+}
+
+a:hover {
+  color: rgba(217, 30, 24, 1);
+  border-bottom: 1px solid white;
+  transition: 0.75s;
+}
+
+
+/* Phones */
+@media only screen and (min-width : 480px) {
+  .title {
+    padding-top: 70px;
+  }
+}
+
+/* Tablets */
+@media only screen and (min-width : 768px) {
+  .title {
+    padding-top: 100px;
+  }
+}
+
+/* Desktops */
+@media only screen and (min-width : 992px) {
+  .title {
+    padding-top: 150px;
+    overflow: hidden;
+  }
+}
+
+/* Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .title {
+    padding-top: 20px;
+    overflow: hidden;
+  }
+}
